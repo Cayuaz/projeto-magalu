@@ -9,3 +9,13 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+.logo-magalu {
+    width: 150px;
+}
+
+.container-main {
+    background-color: #ffffff;
+    margin-inline: auto;
+    width: 90%;
+    margin-block: 20px;
+}
