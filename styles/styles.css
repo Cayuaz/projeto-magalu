@@ -47,3 +47,29 @@ nav a {
 h1, h2, p {
     margin-top: 20px;
 }
+
+
+.container-chat {
+    background-color: #f8c0ca;
+    border-radius: 5px;
+    max-width: 200px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 5px;
+    padding-inline: 10px;
+    padding-block: 30px;
+    position: fixed;
+    bottom: 50px;
+    left: 1%;
+}
+
+.container-chat button, .container-chat textarea {
+    width: 80%;
+    margin-inline: auto;
+}
+
+.container-chat textarea {
+    height: 100px;
+}
