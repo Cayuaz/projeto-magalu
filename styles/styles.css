@@ -11,6 +11,7 @@ body {
 
 .logo-magalu {
     width: 150px;
+    margin-block-start: 10px;
 }
 
 .container-main {
@@ -18,4 +19,27 @@ body {
     margin-inline: auto;
     width: 90%;
     margin-block: 20px;
+    padding-inline: 20px;
+    padding-block: 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.header {
+    background-color: #2d54a8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 10px;
+    padding-block: 10px;
+
 }
