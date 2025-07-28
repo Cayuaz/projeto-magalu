@@ -43,3 +43,7 @@ nav a {
     padding-block: 10px;
 
 }
+
+h1, h2, p {
+    margin-top: 20px;
+}
